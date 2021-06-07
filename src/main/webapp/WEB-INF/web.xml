@@ -1,0 +1,117 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <!-- <servlet>
+  	<servlet-name>loadSearchFlightServlet</servlet-name>
+  	<display-name>loadSearchFlightServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.flyaway.controller.loadSearchFlightServlet</servlet-class>
+  </servlet> -->
+  <servlet>
+  	<servlet-name>findFlightsServlet</servlet-name>
+  	<display-name>findFlightsServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.flyaway.controller.findFlightsServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>bookFlightServlet</servlet-name>
+  	<display-name>bookFlightServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.flyaway.controller.bookFlightServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>adminLoginServlet</servlet-name>
+  	<display-name>adminLoginServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.flyaway.controller.adminLoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>logoutServlet</servlet-name>
+  	<display-name>logoutServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.flyaway.controller.logoutServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>changePwdServlet</servlet-name>
+  	<display-name>changePwdServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.flyaway.controller.changePwdServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>addAirlinesServlet</servlet-name>
+  	<display-name>addAirlinesServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.flyaway.controller.addAirlinesServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>addSourceServlet</servlet-name>
+  	<display-name>addSourceServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.flyaway.controller.addSourceServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>addDestinationServlet</servlet-name>
+  	<display-name>addDestinationServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.flyaway.controller.addDestinationServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>scheduleFlightsServlet</servlet-name>
+  	<display-name>scheduleFlightsServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.flyaway.controller.scheduleFlightsServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>updateAirlineStatusServlet</servlet-name>
+  	<display-name>updateAirlineStatusServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.flyaway.controller.updateAirlineStatusServlet</servlet-class>
+  </servlet>
+  <!-- <servlet-mapping>
+  	<servlet-name>loadSearchFlightServlet</servlet-name>
+  	<url-pattern>/loadSearchFlight</url-pattern>
+  </servlet-mapping> -->
+  <servlet-mapping>
+  	<servlet-name>findFlightsServlet</servlet-name>
+  	<url-pattern>/findFlights</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>bookFlightServlet</servlet-name>
+  	<url-pattern>/bookFlight</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>adminLoginServlet</servlet-name>
+  	<url-pattern>/adminLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>logoutServlet</servlet-name>
+  	<url-pattern>/logout</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>changePwdServlet</servlet-name>
+  	<url-pattern>/changePwd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>addAirlinesServlet</servlet-name>
+  	<url-pattern>/addAirline</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>addSourceServlet</servlet-name>
+  	<url-pattern>/addSource</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>addDestinationServlet</servlet-name>
+  	<url-pattern>/addDestination</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>scheduleFlightsServlet</servlet-name>
+  	<url-pattern>/scheduleFlights</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>updateAirlineStatusServlet</servlet-name>
+  	<url-pattern>/updateAirlineStatus</url-pattern>
+  </servlet-mapping>
+</web-app>

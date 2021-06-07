@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>        
+  <session-factory>
+    <!-- Database connection settings -->
+    <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+    <property name="connection.url">jdbc:mysql://localhost:3306/FlyawayAirlinewebappdb</property>
+    <property name="connection.username">root</property>
+    <property name="connection.password">master</property>    
+     <mapping class="com.flyaway.model.sourceLocations"/>
+     <mapping class="com.flyaway.model.destnLocations"/>
+     <mapping class="com.flyaway.model.flightInfo"/>
+      <mapping class="com.flyaway.model.airlines"/>
+      <mapping class="com.flyaway.model.adminCredentials"/>
+      <mapping class="com.flyaway.model.paymentInfo"/>
+      <mapping class="com.flyaway.model.flightBooking"/>
+      <mapping class="com.flyaway.model.passengers"/>
+     <!-- <mapping resource="Eproduct.hbm.xml"/>  -->
+  </session-factory>
+</hibernate-configuration>
